@@ -1,0 +1,2 @@
+docker build -t prueba-tecnica --build-arg port=3005 --build-arg secret=f5481c1a3122507b --build-arg user=user4 --build-arg password=pass4# --build-arg expiration=1h .
+docker run -p 3005:3005 prueba-tecnica
